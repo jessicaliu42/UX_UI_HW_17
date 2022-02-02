@@ -1,6 +1,6 @@
 body{
     font-family: Arial;
-        margin: 0;
+    margin: 0;
 }
 
 .header{
@@ -50,11 +50,12 @@ main{
     margin-top: 200px;
 }
 .section{
+    margin: 0;
     width: 100%;
     height: 100vh;
 }
 section h1{
-    padding: 20px;
+    padding-top:50px;
     text-align: center;
     font-weight: 900;
     font-size: 40px;
@@ -63,29 +64,35 @@ section h1{
     width: 400px;
     padding: 50px;
     position: absolute;
-    display: inline-block;
+    display: inline-block; 
 }
 .aboutme{
     background-color:white;
 }
+.aboutmeContent{
+    padding-left: 350px;
+}
 .meimage{
-    position: absolute;
-    display: inline-block;
     width: 30%;
     padding: 50px;
 }
 .socialmedia{
     list-style-type: none;
+    display: inline-block; 
+}
+.socialmedia li{
     display: inline-block;
-    margin: 20px;
+    padding:0px 20px 20px 20px;
 }
 .worklist{
     list-style-type: none;
     display: inline-block;
-    margin: 100px;
+    margin: 50px 200px 0px 200px;
+    text-align: center;
 }
 .worklist li{
     display: inline-block;
+    margin: 50px;
 }
 .worklist li img{
     width: 300px;
@@ -97,12 +104,16 @@ section h1{
 .resume{
     background-color: white;
 }
+.resumeContent{
+    padding-left: 350px;
+}
 .contact{
     background-color: lightgrey;
 }
 .footer{
     width: 100%;
-    height: 80px;
+    height: 150px;
     background-color: black;
     color: white;
+    text-align: center;
 }
