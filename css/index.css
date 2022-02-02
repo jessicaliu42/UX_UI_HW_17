@@ -1,0 +1,108 @@
+body{
+    font-family: Arial;
+        margin: 0;
+}
+
+.header{
+    width: 100%;
+    position: fixed;
+}
+.header nav{
+    padding-right: 80px;
+    padding-top: 20px;
+    float: right;
+}
+.header nav ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 20px;
+}
+.header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.cover{
+    background-image: url(/asset/photo-1476357471311-43c0db9fb2b4.jpeg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+main{
+    position: absolute;
+    text-align: center;
+    padding: 300px;
+}
+.myname{
+    font-size: 78px;
+    color:#6BD9F2;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+}
+.scroll{
+    width: 50px;
+    height: 50px; 
+}
+.scrolla{
+    position: absolute;
+    margin-top: 200px;
+}
+.section{
+    width: 100%;
+    height: 100vh;
+}
+section h1{
+    padding: 20px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+}
+.intro{
+    width: 400px;
+    padding: 50px;
+    position: absolute;
+    display: inline-block;
+}
+.aboutme{
+    background-color:white;
+}
+.meimage{
+    position: absolute;
+    display: inline-block;
+    width: 30%;
+    padding: 50px;
+}
+.socialmedia{
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px;
+}
+.worklist{
+    list-style-type: none;
+    display: inline-block;
+    margin: 100px;
+}
+.worklist li{
+    display: inline-block;
+}
+.worklist li img{
+    width: 300px;
+}
+.work{
+    background-color: lightgray;
+    
+}
+.resume{
+    background-color: white;
+}
+.contact{
+    background-color: lightgrey;
+}
+.footer{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: white;
+}
